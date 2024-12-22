@@ -1,0 +1,67 @@
+/* filepath: /c:/Users/avsiv/OneDrive/Desktop/Copilot/Game/tic-tac-toe-web-app/src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #f06, #4a90e2);
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: #ddd;
+}
+
+.status {
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.player-options {
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
