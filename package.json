@@ -22,7 +22,7 @@
     "react-scripts": "^5.0.1",
     "resolve-url-loader": "^5.0.0"
   },
-  "homepage": "http://yourusername.github.io/tic-tac-toe-web-app",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
